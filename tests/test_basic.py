@@ -1,5 +1,5 @@
 import pytest
-from ..lexer import tokenize
+from lexer import tokenize
 from parser import parse
 
 def test_valid_yaml():
