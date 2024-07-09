@@ -2,7 +2,7 @@ from lexer import tokenize
 from parser import parse
 
 def main():
-    yaml_string = """name: Coding Challenges"""
+    yaml_string = """name: Coding Challenges\nchallenge:\n name: YAML Parser"""
     try:
         tokens = tokenize(yaml_string)
         parsed_data = parse(tokens)
